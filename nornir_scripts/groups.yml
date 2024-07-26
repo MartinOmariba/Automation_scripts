@@ -1,0 +1,7 @@
+---
+cisco:
+  platform: ios
+
+
+#groups holds the group name refferd in hosts 
+#and the os or plartform of the device

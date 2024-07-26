@@ -1,0 +1,6 @@
+---
+username: "cisco"
+password: "cisco"
+platform: "ios"
+
+#simply holds our default credentials

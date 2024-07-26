@@ -1,0 +1,18 @@
+
+---
+inventory:
+  plugin: SimpleInventory
+  options:
+    host_file: "~/automation/hosts.yml"
+    group_file: "~/automation/groups.yml"
+    defaults_file: "~/automation/defaults.yml"
+
+runner:
+  plugin: threaded
+  options:
+    num_workers: 10
+
+#config file holds the directory path to other ansible files
+#plugin: simleinventory is default
+#we enable threads on runner
+#num_workers means numb of devices

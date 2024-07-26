@@ -1,0 +1,10 @@
+-------------
+ logging buffered 100000
+ no logging console
+
+ interface loopback 0
+ ip address 1.1.1.1 255.255.255.0
+ no shut
+ exit
+
+ 
